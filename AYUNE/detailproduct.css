@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #028A56;
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto; /* Menyebabkan navigasi ada di kiri */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Tombol Login */
+.auth-buttons {
+    margin-left: auto; /* Menyebabkan tombol login ada di kanan */
+}
+
+.auth-buttons button {
+    background-color: whitesmoke;
+    color: #3b3b3b;
+    border: 2px solid black; /* Add a border */
+    border-radius: 20px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 20vh; /* Mengatur tinggi section menjadi 100% dari tinggi viewport */
+    display: flex;
+    justify-content: center; /* Menyelaraskan konten secara horizontal */
+    align-items: center; /* Menyelaraskan konten secara vertikal */
+    background-color: #E3F2ED; /* Tambahkan background untuk visibilitas */
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    color: #333;
+    text-align: center; /* Ini menyelaraskan teks secara horizontal di dalam div */
+}
+
+/* Product */
+.product-section {
+    padding: 50px 0;
+    margin-right: 75px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image img {
+    width: 700px;
+    height: auto;
+}
+
+.product-details {
+    width: 45%;
+}
+
+.product-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.product-details hr {
+    margin: 10px 0;
+}
+
+.product-details h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.product-details p,
+.product-details ol {
+    margin-bottom: 15px;
+}
+
+.product-details ol li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #EAF5F2;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+/* Struktur Footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    color: #028A56;
+}
+
+/* Isi Footer */
+.footer-content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.customer-care, .account, .social-media {
+    width: 30%;
+}
+
+.customer-care p, .account p, .social-media p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Footer Bawah */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Ikon Sosial Media */
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.account{
+    text-decoration: none;
+}
